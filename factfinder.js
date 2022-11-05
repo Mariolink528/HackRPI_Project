@@ -33,4 +33,4 @@ facts = ["Due to a lack of atmosphere, there is no sound in space.",
 i = facts.length;
 j = Math.floor(Math.random()*i);
 k = facts[j];
-document.getElementById("demo").innerHTML = k;
+document.getElementById("fact").innerHTML = k;
